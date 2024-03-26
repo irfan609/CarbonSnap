@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "578548281562",
+    "project_id": "lcos-app-2e724",
+    "storage_bucket": "lcos-app-2e724.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:578548281562:android:fcc0b3ffc2775f2b4cb5e3",
+        "android_client_info": {
+          "package_name": "com.irfan.lcos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "578548281562-paehd97alllvmhrrqrtackpsbmjn9abt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.irfan.lcos",
+            "certificate_hash": "d7a10bf572abbe02105796d3c8bdbcacd1ace817"
+          }
+        },
+        {
+          "client_id": "578548281562-u9bcc7btn5dnvt7usgt5p140tb0gtf9v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDM7s9QmZRLE0YRfgXQkFkxPYI77mEAI4s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "578548281562-i50hjbuvgs10nh5g712eje0iqi7va8hc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "578548281562-mp0h88as93d33k1a0o5uev0n7kpgn8d8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.irfan.lcos"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

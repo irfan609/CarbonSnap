@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>578548281562-mp0h88as93d33k1a0o5uev0n7kpgn8d8.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.578548281562-mp0h88as93d33k1a0o5uev0n7kpgn8d8</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>578548281562-paehd97alllvmhrrqrtackpsbmjn9abt.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCZkqH9wz25KXoQDth2ehOP2nNrR_UJok4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>578548281562</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.irfan.lcos</string>
+	<key>PROJECT_ID</key>
+	<string>lcos-app-2e724</string>
+	<key>STORAGE_BUCKET</key>
+	<string>lcos-app-2e724.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:578548281562:ios:1a007f39693a0bc04cb5e3</string>
+</dict>
+</plist>
