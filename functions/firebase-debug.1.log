@@ -1,0 +1,226 @@
+[debug] [2024-01-24T08:53:54.556Z] ----------------------------------------------------------------------
+[debug] [2024-01-24T08:53:54.559Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\irfan\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve --only functions
+[debug] [2024-01-24T08:53:54.559Z] CLI Version:   13.0.3
+[debug] [2024-01-24T08:53:54.559Z] Platform:      win32
+[debug] [2024-01-24T08:53:54.559Z] Node Version:  v21.2.0
+[debug] [2024-01-24T08:53:54.560Z] Time:          Wed Jan 24 2024 16:53:54 GMT+0800 (Malaysia Time)
+[debug] [2024-01-24T08:53:54.560Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-24T08:53:54.695Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-24T08:53:54.696Z] > authorizing via signed-in user (irfanishak609@gmail.com)
+[debug] [2024-01-24T08:53:54.696Z] [iam] checking project lcos-app-2e724 for permissions ["firebase.projects.get"]
+[debug] [2024-01-24T08:53:54.697Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/lcos-app-2e724:testIamPermissions [none]
+[debug] [2024-01-24T08:53:54.697Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/lcos-app-2e724:testIamPermissions x-goog-quota-user=projects/lcos-app-2e724
+[debug] [2024-01-24T08:53:54.698Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/lcos-app-2e724:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-01-24T08:53:55.773Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/lcos-app-2e724:testIamPermissions 200
+[debug] [2024-01-24T08:53:55.773Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/lcos-app-2e724:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-01-24T08:53:55.774Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/lcos-app-2e724 [none]
+[debug] [2024-01-24T08:53:56.231Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/lcos-app-2e724 200
+[debug] [2024-01-24T08:53:56.231Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/lcos-app-2e724 {"projectId":"lcos-app-2e724","projectNumber":"578548281562","displayName":"LCOS app","name":"projects/lcos-app-2e724","resources":{"hostingSite":"lcos-app-2e724","storageBucket":"lcos-app-2e724.appspot.com","locationId":"asia-southeast1"},"state":"ACTIVE","etag":"1_e4b7efec-5a5c-451d-8ddc-1ae5324fe6ad"}
+[debug] [2024-01-24T08:53:56.234Z] defaultcredentials: writing to file C:\Users\irfan\AppData\Roaming\firebase\irfanishak609_gmail_com_application_default_credentials.json
+[debug] [2024-01-24T08:53:56.235Z] Setting GAC to C:\Users\irfan\AppData\Roaming\firebase\irfanishak609_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\irfan\\AppData\\Roaming\\firebase\\irfanishak609_gmail_com_application_default_credentials.json"}}
+[debug] [2024-01-24T08:53:56.235Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/lcos-app-2e724/adminSdkConfig [none]
+[debug] [2024-01-24T08:53:57.469Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/lcos-app-2e724/adminSdkConfig 200
+[debug] [2024-01-24T08:53:57.469Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/lcos-app-2e724/adminSdkConfig {"projectId":"lcos-app-2e724","storageBucket":"lcos-app-2e724.appspot.com","locationId":"asia-southeast1"}
+[info] i  functions: Watching "C:\flutterproject\lcosApp\carbon\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\flutterproject\\lcosApp\\carbon\\functions\" for Cloud Functions..."}}
+[debug] [2024-01-24T08:53:57.487Z] Validating nodejs source
+[debug] [2024-01-24T08:53:59.203Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2024-01-24T08:53:59.204Z] Building nodejs source
+[debug] [2024-01-24T08:53:59.204Z] Failed to find version of module node: reached end of search path C:\flutterproject\lcosApp\carbon\functions\node_modules
+[warn] !  functions: Your requested "node" version "18" doesn't match your global version "21". Using node@21 from host. 
+[debug] [2024-01-24T08:53:59.206Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-01-24T08:53:59.212Z] Found firebase-functions binary at 'C:\flutterproject\lcosApp\carbon\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8134
+
+[debug] [2024-01-24T08:53:59.713Z] Got response from /__/functions.yaml {"endpoints":{},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] +  functions: Loaded functions definitions from source: . {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: ."}}
+[debug] [2024-01-24T08:58:42.189Z] File C:\flutterproject\lcosApp\carbon\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\flutterproject\\lcosApp\\carbon\\functions\\index.js changed, reloading triggers"}}
+[debug] [2024-01-24T08:58:43.200Z] Validating nodejs source
+[debug] [2024-01-24T08:58:45.053Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2024-01-24T08:58:45.053Z] Building nodejs source
+[debug] [2024-01-24T08:58:45.053Z] Failed to find version of module node: reached end of search path C:\flutterproject\lcosApp\carbon\functions\node_modules
+[warn] !  functions: Your requested "node" version "18" doesn't match your global version "21". Using node@21 from host. 
+[debug] [2024-01-24T08:58:45.054Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-01-24T08:58:45.061Z] Found firebase-functions binary at 'C:\flutterproject\lcosApp\carbon\functions\node_modules\.bin\firebase-functions'
+[debug] [2024-01-24T08:58:45.067Z] File C:\flutterproject\lcosApp\carbon\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\flutterproject\\lcosApp\\carbon\\functions\\index.js changed, reloading triggers"}}
+[info] Serving at port 8785
+
+[error] C:\flutterproject\lcosApp\carbon\functions\index.js:486
+/ Call the function to perform the daily update logic
+^
+
+SyntaxError: Invalid regular expression: missing /
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at loadModule (C:\flutterproject\lcosApp\carbon\functions\node_modules\firebase-functions\lib\runtime\loader.js:40:16)
+    at loadStack (C:\flutterproject\lcosApp\carbon\functions\node_modules\firebase-functions\lib\runtime\loader.js:93:23)
+
+[debug] [2024-01-24T08:58:45.264Z] Got response code 400; body Failed to generate manifest from function source: SyntaxError: Invalid regular expression: missing /
+[debug] [2024-01-24T08:58:46.077Z] Validating nodejs source
+[debug] [2024-01-24T08:58:47.784Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2024-01-24T08:58:47.785Z] Building nodejs source
+[debug] [2024-01-24T08:58:47.785Z] Failed to find version of module node: reached end of search path C:\flutterproject\lcosApp\carbon\functions\node_modules
+[warn] !  functions: Your requested "node" version "18" doesn't match your global version "21". Using node@21 from host. 
+[debug] [2024-01-24T08:58:47.786Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-01-24T08:58:47.795Z] Found firebase-functions binary at 'C:\flutterproject\lcosApp\carbon\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8085
+
+[error] C:\flutterproject\lcosApp\carbon\functions\index.js:486
+/ Call the function to perform the daily update logic
+^
+
+SyntaxError: Invalid regular expression: missing /
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at loadModule (C:\flutterproject\lcosApp\carbon\functions\node_modules\firebase-functions\lib\runtime\loader.js:40:16)
+    at loadStack (C:\flutterproject\lcosApp\carbon\functions\node_modules\firebase-functions\lib\runtime\loader.js:93:23)
+
+[debug] [2024-01-24T08:58:48.028Z] Got response code 400; body Failed to generate manifest from function source: SyntaxError: Invalid regular expression: missing /
+[debug] [2024-01-24T08:58:48.249Z] File C:\flutterproject\lcosApp\carbon\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\flutterproject\\lcosApp\\carbon\\functions\\index.js changed, reloading triggers"}}
+[debug] [2024-01-24T08:58:49.262Z] Validating nodejs source
+[debug] [2024-01-24T08:58:50.869Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2024-01-24T08:58:50.869Z] Building nodejs source
+[debug] [2024-01-24T08:58:50.869Z] Failed to find version of module node: reached end of search path C:\flutterproject\lcosApp\carbon\functions\node_modules
+[warn] !  functions: Your requested "node" version "18" doesn't match your global version "21". Using node@21 from host. 
+[debug] [2024-01-24T08:58:50.870Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-01-24T08:58:50.876Z] Found firebase-functions binary at 'C:\flutterproject\lcosApp\carbon\functions\node_modules\.bin\firebase-functions'
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2024-01-24T08:58:50.882Z] File C:\flutterproject\lcosApp\carbon\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\flutterproject\\lcosApp\\carbon\\functions\\index.js changed, reloading triggers"}}
+[info] Serving at port 8109
+
+[debug] [2024-01-24T08:58:51.364Z] Got response from /__/functions.yaml {"endpoints":{},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2024-01-24T08:58:51.897Z] Validating nodejs source
+[debug] [2024-01-24T08:58:53.438Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2024-01-24T08:58:53.438Z] Building nodejs source
+[debug] [2024-01-24T08:58:53.438Z] Failed to find version of module node: reached end of search path C:\flutterproject\lcosApp\carbon\functions\node_modules
+[warn] !  functions: Your requested "node" version "18" doesn't match your global version "21". Using node@21 from host. 
+[debug] [2024-01-24T08:58:53.439Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-01-24T08:58:53.445Z] Found firebase-functions binary at 'C:\flutterproject\lcosApp\carbon\functions\node_modules\.bin\firebase-functions'
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[info] Serving at port 8495
+
+[debug] [2024-01-24T08:58:54.013Z] Got response from /__/functions.yaml {"endpoints":{},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] +  functions: Loaded functions definitions from source: . {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: ."}}
+[info] +  functions: Loaded functions definitions from source: . {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: ."}}
